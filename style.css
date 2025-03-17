@@ -1,0 +1,37 @@
+.leftblock {
+    display:flex;
+    flex-direction: column;
+    position: absolute;
+    text-align: center;
+    top: 0px;
+    left: 0px;
+    width: 160px;
+    height: 100vh;
+    border: solid 1px;
+    background-color:black;
+}
+.delimitgray {
+    position: relative;
+    background-color: gray;
+    display: flex;
+    width: 21.5vh;
+    height: 2px;
+    top: -20px;
+}
+.subtexto {
+    position: relative;
+    color: white;
+    top: -25px;
+}
+.botoes {
+    background-color: black;
+    color: gray;
+    width: 155px;
+    height: 80px;
+    font-size: 25px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+.botoes:hover {
+    color: white;
+}
